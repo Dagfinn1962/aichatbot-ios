@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ChatGPTExample
+//  AICHATBOT
 //
-//  Created by Jaesung Lee on 2023/05/12.
+//  Created by Dagfinn Lindbom 18/5- 23
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        SendbirdUI.initialize(applicationId: "BDD627AC-AC88-45F4-B277-2B3B5C4610E3") { error in
+        SendbirdUI.initialize(applicationId: "A094550E-7ACC-4DDE-9ACE-3C873D4506CF") { error in
             if let error { print(error.localizedDescription) }
         }
         SBUGlobals.currentUser = SBUUser(userId: "j_sung_0o0")
