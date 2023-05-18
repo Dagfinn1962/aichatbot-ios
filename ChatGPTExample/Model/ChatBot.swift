@@ -1,36 +1,30 @@
 //
 //  ChatBot.swift
-//  ChatGPTExample
+//  AICHATBOT
 //
-//  Created by Jaesung Lee on 2023/05/12.
+//  Created by Dagfinn Lindbom 18/5 - 23
 //
 
 import Foundation
 
+// ChatBot.swift
 enum ChatBot: Int, CaseIterable {
-    case chatGPT
-    case witty
-    case knowledge
+    // TODO: Replace with your own user IDs of bots
+    case dagfinnlindbom
     
     var botID: String {
         switch self {
-        case .chatGPT:
-            return "gpt_bot"
-        case .witty:
-            return "gpt_bot2"
-        case .knowledge:
-            return "gpt_bot3"
-        }
+        case .dagfinnlindbom: 
+            return "aichatbot"
     }
+}
+     
     
     var name: String {
         switch self {
-        case .chatGPT:
-            return "GPT Bot"
-        case .witty:
-            return "Witty Bot"
-        case .knowledge:
-            return "Knowledge Bot"
+        case .dagfinnlindbom:
+            return "aichatbot"
+       
         }
     }
     
